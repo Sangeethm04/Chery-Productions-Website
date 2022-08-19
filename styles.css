@@ -75,3 +75,33 @@
     padding-bottom: 20px;
     font-weight: bold;
 }
+
+/*Footer*/
+#footer {
+    background-color: #ffffff;
+    position: relative;
+    height: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#main {
+    overflow: hidden;
+    padding-bottom: 2%;
+}
+
+/*End of Footer*/
+
+footer a {
+    color: #000000;
+}
+
+footer a:hover {
+    color: rgb(0, 153, 255);
+}
+a {
+    text-decoration: none;
+}

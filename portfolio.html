@@ -7,17 +7,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Chery Productions</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!--Index Page Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
     .row {
+        display: -ms-flexbox;
+        /* IE10 */
         display: flex;
+        -ms-flex-wrap: wrap;
+        /* IE10 */
         flex-wrap: wrap;
         padding: 0 4px;
     }
 
     /* Create four equal columns that sits next to each other */
     .column {
+        -ms-flex: 25%;
+        /* IE10 */
         flex: 25%;
         max-width: 25%;
         padding: 0 4px;
@@ -33,6 +55,7 @@
     /* Responsive layout - makes a two column-layout instead of four columns */
     @media screen and (max-width: 800px) {
         .column {
+            -ms-flex: 50%;
             flex: 50%;
             max-width: 50%;
         }
@@ -41,6 +64,7 @@
     /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 600px) {
         .column {
+            -ms-flex: 100%;
             flex: 100%;
             max-width: 100%;
         }
@@ -59,44 +83,57 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
+    
+    <h2 style="text-align: center; font-family: 'Roboto', sans-serif;">Images From Recent Shoot</h2>
     <div class="row">
         <div class="column">
-            <img src="wedding.jpg">
-            <img src="rocks.jpg">
-            <img src="falls2.jpg">
-            <img src="paris.jpg">
-            <img src="nature.jpg">
-            <img src="mist.jpg">
-            <img src="paris.jpg">
+            <img src="Assets\Portfolio\Copy of IMG_4380.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_4435.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_5914.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_6067.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_6331.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_4531.JPG">
         </div>
         <div class="column">
-            <img src="underwater.jpg">
-            <img src="ocean.jpg">
-            <img src="wedding.jpg">
-            <img src="mountainskies.jpg">
-            <img src="rocks.jpg">
-            <img src="underwater.jpg">
+            <img src="Assets\Portfolio\Copy of _MG_4527.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_5925.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_4545.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_5941.CR2">
+            <img src="Assets\Portfolio\Copy of _MG_4738.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_4787.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_4400.JPG">
+
         </div>
         <div class="column">
-            <img src="wedding.jpg">
-            <img src="rocks.jpg">
-            <img src="falls2.jpg">
-            <img src="paris.jpg">
-            <img src="nature.jpg">
-            <img src="mist.jpg">
-            <img src="paris.jpg">
+            <img src="Assets\Portfolio\Copy of _MG_4979.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_5121.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_4339.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_6249.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_4302.JPG">
         </div>
         <div class="column">
-            <img src="underwater.jpg">
-            <img src="ocean.jpg">
-            <img src="wedding.jpg">
-            <img src="mountainskies.jpg">
-            <img src="rocks.jpg">
-            <img src="underwater.jpg">
+            <img src="Assets\Portfolio\Copy of IMG_5133.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_6025.JPG">
+            <img src="Assets\Portfolio\Copy of IMG_6031.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_6066.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_6065.JPG">
+            <img src="Assets\Portfolio\Copy of DJI_0138.JPG">
+            <img src="Assets\Portfolio\Copy of _MG_4545.JPG">
+
+
         </div>
     </div>
 
+    <footer style="text-decoration: none;" id="footer">
+        <hr>
+        <p>Serving NJ, PA, NY </p>
+        <p>Phone: (908) 367-3089 | Email:
+            <a target="_blank" href="mailto:schery004@gmail.com"><u>schery004@gmail.com</u></a>
+            | <a class="text-decoration:none;" href="contact.html"><u>Contact</u></a> </p>
+        <p>&copy;<script>
+                document.write(new Date().getFullYear())
+            </script> by Chery Productions.</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 
