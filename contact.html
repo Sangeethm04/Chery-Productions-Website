@@ -7,7 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Chery Productions</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="Assets\Favicon.png">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7TM5CVRHV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-W7TM5CVRHV');
+  </script>
+  
   <!--Index Page Fonts-->
 
 
@@ -128,7 +142,6 @@
     border-radius: 5px;
     box-shadow: 4px 4px #ccc;
   }
-
 </style>
 
 <body>
@@ -144,7 +157,7 @@
     </a>
   </div>
 
-  <div style = "color:black" class="container">
+  <div style="color:black" class="container">
     <div class="wrapper">
       <!--
         <div class="company-info">
@@ -152,27 +165,27 @@
          <img style="width:100%;" src="Assets/Divine Logo Crown.png" alt="divine logo">
         </div>-->
       <div class="contact">
-        <h3 style = "color:black" ><b>Contact Us</b></h3>
-        <div style = "color:black"  class="alert">Your message has been sent</div>
+        <h3 style="color:black"><b>Contact Us</b></h3>
+        <div style="color:black" class="alert">Your message has been sent</div>
         <form id="contactForm">
           <p>
-            <label style = "color:black" >First/Last Name</label>
+            <label style="color:black">First/Last Name</label>
             <input type="text" name="name" id="name" required>
           </p>
           <p>
-            <label style = "color:black" >Location</label>
+            <label style="color:black">Location</label>
             <input type="text" name="location" id="location" required>
           </p>
           <p>
-            <label style = "color:black" >Email Address</label>
+            <label style="color:black">Email Address</label>
             <input type="email" name="email" id="email" required>
           </p>
           <p>
-            <label style = "color:black" >Phone Number</label>
+            <label style="color:black">Phone Number</label>
             <input type="text" name="phone" id="phone">
           </p>
           <p class="full">
-            <label style = "color:black" >Message</label>
+            <label style="color:black">Message</label>
             <textarea name="message" rows="5" id="message"></textarea>
           </p>
           <p class="full">
