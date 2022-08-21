@@ -145,6 +145,7 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top:25px;
 }
 
 /* Number text (1/3 etc) */
@@ -212,4 +213,7 @@ img {
   }
   
   /*End of Scrollbar*/
-  
+
+  h1, h2, h3, a, p {
+    color:white;
+  }
