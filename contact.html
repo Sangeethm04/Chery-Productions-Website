@@ -21,7 +21,7 @@
 
     gtag('config', 'G-W7TM5CVRHV');
   </script>
-  
+
   <!--Index Page Fonts-->
 
 
@@ -55,6 +55,7 @@
 
   .wrapper {
     box-shadow: 0 0 20px 0 rgba(137, 151, 165, 0.7);
+    margin-bottom: 3%;
 
   }
 
@@ -159,15 +160,10 @@
 
   <div style="color:black" class="container">
     <div class="wrapper">
-      <!--
-        <div class="company-info">
-          <h3>Divine Mercy Healing Center</h3>
-         <img style="width:100%;" src="Assets/Divine Logo Crown.png" alt="divine logo">
-        </div>-->
       <div class="contact">
         <h3 style="color:black"><b>Contact Us</b></h3>
         <div style="color:black" class="alert">Your message has been sent</div>
-        <form id="contactForm">
+        <form id="contactForm" netlify>
           <p>
             <label style="color:black">First/Last Name</label>
             <input type="text" name="name" id="name" required>
@@ -195,12 +191,9 @@
       </div>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
-    <script src="main.js"></script>
   </div>
 
   <script src="script.js"></script>
-  <script src="form.js"></script>
 
   <footer style="text-decoration: none;" id="footer">
     <hr>
