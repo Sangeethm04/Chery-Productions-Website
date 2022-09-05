@@ -28,6 +28,75 @@
     </script>
 </head>
 
+<style>
+    .row {
+        margin-top: 1%;
+    }
+
+    html {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        padding: 16px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .button:hover {
+        background-color: rgb(0, 0, 0);
+    }
+</style>
+
 
 <body>
     <h1 class="mainText">Chery Productions LLC</h1>
@@ -40,6 +109,93 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
+    </div>
+    <h3 style="text-align: center; padding: 10px;">
+        We offer a wide range of services to help you with your project. Pricing is based on the scope of the project
+        and is negotiable. If you'd like to discuss your project, please contact us and we will offer a free quote based
+        on your affordability.
+    </h3>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="Assets\Sports Events.JPG" alt="sports event"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>Sports Events</h2>
+                    <p class="title">Lead &amp; Co-Founder</p>
+                    <p>Also founder of <a href="https://www.latindictionarynotes.com/">latindictionarynotes.com</a></p>
+                    <p>schery004@gmail.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="Assets\baptism.jpg" alt="baptisms"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>Baptisms</h2>
+                    <p class="title">Co-Founder</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>menachery351@gmail.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="Assets\Wedding.jpg" alt="Wedding"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>Weddings</h2>
+                    <p class="title">Head of Productions</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="Assets\Real-estate.jpg" alt="Commercial & Residential Real-Esate"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>Commercial & Residential Real-Esate</h2>
+                    <p class="title">Head of Productions</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="Assets\Drone Photgraphy.jpg" alt="sports event"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>Aerial Photography</h2>
+                    <p class="title">Head of Productions</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="Assets\EventGeneral.jpg" alt="general events"
+                    style="width:100%;border-top-right-radius: 8px;border-top-left-radius: 8px">
+                <div class="container">
+                    <h2>General Events</h2>
+                    <p class="title">Head of Productions</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><a href="mailto:schery004@gmail.com" class="button">Contact</a></p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer style="text-decoration: none;" id="footer">
