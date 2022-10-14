@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Chery Productions</title>
+    <title>Events | Chery Productions</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="Assets/favicon.ico" type="image/x-icon">
-
     <!--Index Page Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
@@ -27,63 +26,95 @@
 
         gtag('config', 'G-W7TM5CVRHV');
     </script>
-
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7TM5CVRHV"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
+<style>
+    .row {
+        margin-top: 1%;
     }
-    gtag('js', new Date());
 
-    gtag('config', 'G-W7TM5CVRHV');
-</script>
+    html {
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    .column {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .title {
+        color: grey;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .button:hover {
+        background-color: #555;
+    }
+</style>
 
 <body>
     <h1 class="mainText">Chery Productions LLC</h1>
     <div class="topnav" id="myTopnav">
-        <a href="/" class="active">Home</a>
+        <a href="/">Home</a>
         <a href="about.html">About</a>
         <a href="portfolio.html">Portfolio</a>
         <a href="services.html">Services</a>
-        <a href="events.html">Events</a>
+        <a href="events.html" class="active">Events</a>
         <a href="contact.html">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
     </div>
-
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
-            <img src="Assets\IMG_4317.JPG" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
-            <img src="Assets\IMG_4302.JPG" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img src="Assets\IMG_4380.JPG" style="width:100%">
-        </div>
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img src="Assets\Drone Photo 2.jpg" style="width:100%">
-        </div>
-
-    </div>
-    <br>
     <div>
-        <!--Talk about photograhpy business-->
-        <h2
-            style="text-align:center; color:black; background-color: rgb(240, 240, 240); border-radius:8px;margin:2% 5% 2% 5%; padding:50px; font-family: 'Roboto', sans-serif; ">
-            A team of photographers who specialize in capturing the beauty of your events.
-        </h2>
+        <h1 style="text-align: center;">Pictures from LFML Jubliee Event @St Thomas Syro Malabar Church Somerset NJ</h1>
+        <p style="text-align: center;">Will be updated by 10/29/2022</p>
     </div>
+   
+
     <footer style="text-decoration: none;" id="footer">
         <hr>
         <p>Currently Serving New Jersey</p>
@@ -94,9 +125,7 @@
                 document.write(new Date().getFullYear())
             </script> by Chery Productions LLC.</p>
     </footer>
-
     <script src="script.js"></script>
-
 </body>
 
 </html>
