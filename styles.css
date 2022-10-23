@@ -184,9 +184,17 @@ img {
     }
 }
 
+
+
 /*End of slideshow*/
 
-
+@media screen and (max-width: 900px) {
+    .logonew {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  
 /*Scroll Bar*/
 
 /* width */
