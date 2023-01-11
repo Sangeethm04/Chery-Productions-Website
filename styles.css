@@ -188,11 +188,11 @@ img {
 
 @media screen and (max-width: 900px) {
     .logonew {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
-  }
-  
+}
+
 /*Scroll Bar*/
 
 /* width */
