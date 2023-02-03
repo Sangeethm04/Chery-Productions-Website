@@ -72,11 +72,9 @@ body {
 }
 
 .mainText {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif Toto', serif;
     color: #000000;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
     font-weight: bold;
 }
 
@@ -190,11 +188,11 @@ img {
 
 @media screen and (max-width: 900px) {
     .logonew {
-      visibility: hidden;
-      display: none;
+        visibility: hidden;
+        display: none;
     }
-  }
-  
+}
+
 /*Scroll Bar*/
 
 /* width */
