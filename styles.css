@@ -185,7 +185,13 @@ img {
 
 
 /*End of slideshow*/
-
+.logonew img {
+    width: 100px;
+    position: relative;
+    float: right;
+    top: -115px;
+  }
+  
 @media screen and (max-width: 900px) {
     .logonew {
         visibility: hidden;
